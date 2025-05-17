@@ -1,0 +1,71 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: #343a40;
+    color: white;
+    border-radius: 10px 10px 0 0 !important;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.badge {
+    font-size: 0.9em;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.table {
+    margin-top: 20px;
+}
+
+.table th {
+    background-color: #343a40;
+    color: white;
+}
+
+.table-hover tbody tr:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.btn {
+    border-radius: 5px;
+}
+
+.modal-content {
+    border-radius: 10px;
+}
+
+/* Style untuk tombol edit status */
+.edit-status {
+    margin-right: 5px;
+    transition: all 0.2s ease;
+}
+
+.edit-status:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Style untuk modal edit status */
+#statusEditModal .modal-content {
+    border-radius: 10px;
+}
+
+#statusEditModal .modal-header {
+    background-color: #343a40;
+    color: white;
+    border-radius: 10px 10px 0 0;
+}
+
+#statusEditModal .btn-close {
+    filter: invert(1);
+}
